@@ -1,0 +1,17 @@
+{
+  "name": "pp1-testing-calculator-functions",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/OleksiyZaluzhnyi/PP1-Testing-calculator-functions.git"
+  },
+  "private": true,
+  "dependencies": {
+    "jest": "^30.2.0"
+  }
+}
