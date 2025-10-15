@@ -5,7 +5,7 @@ function divide(a, b) {
     else if (typeof a === "string" || typeof b === "string") {return new Error("Error! number can't be string!")}
     else if(a === 0) {return 0;}
     else if(b === 0) { return new Error("Error! divider can't be zero!");}
-    return a / b
+    return parseFloat((a / b).toFixed(2));
 }
 
 module.exports = divide;
